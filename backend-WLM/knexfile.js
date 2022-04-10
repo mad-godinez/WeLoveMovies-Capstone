@@ -1,11 +1,6 @@
 const path = require("path");
 require("dotenv").config({path: './.env'});
 
-/*****HEROKU *****/
-// movielover-capstone-backend
-// https://movielover-capstone-backend.herokuapp.com/ 
-// https://git.heroku.com/movielover-capstone-backend.git
-
 const {
   NODE_ENV = "development",
   DEVELOPMENT_DATABASE_URL,
