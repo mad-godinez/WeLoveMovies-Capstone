@@ -5,17 +5,17 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/mad-godinez/WeLoveMovies-Capstone"
   },
   "scripts": {
-    "build": "npm -prefix client run build",
-    "preinstall": "cd ./backend && npm install",
-    "install": "cd ./client && npm install",
+    "build": "npm -prefix frontend-WLM run build",
+    "preinstall": "cd ./backend-WLM  && npm install",
+    "install": "cd ./frontend-WLM  && npm install",
     "start": "npx concurrently 'npm run start:backend' 'npm run start:client'",
-    "start:backend": "npm --prefix ./backend start",
-    "start:client": "npm --prefix ./client start",
-    "start:dev": "npx concurrently 'npm run start:dev --prefix ./backend' 'npm start --prefix ./client'",
-    "test": "npm run test:client && npm run test:backend"
+    "start:backend": "npm --prefix ./backend-WLM start",
+    "start:client": "npm --prefix ./frontend-WLM start",
+    "start:dev": "npx concurrently 'npm run start:dev --prefix ./backend-WLM' 'npm start --prefix ./frontend-WLM'",
+    "test": "npm run test:frontend-WLM && npm run test:backend-WLM"
   },
   "keywords": [],
   "author": "Madison Godinez & Thinkful, INC.",
