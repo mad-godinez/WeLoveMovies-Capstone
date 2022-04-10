@@ -1,5 +1,5 @@
 
-require("dotenv").config({path: './.env'});
+require("dotenv").config();
 const {REACT_APP_API_BASE_URL} = process.env;
 const API_BASE_URL = REACT_APP_API_BASE_URL;
 
