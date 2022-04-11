@@ -1,13 +1,15 @@
+# Capstone Project: WeLoveMovies
+[click to see the app!](https://client-welovemovies.herokuapp.com/)
 
 
-## Installation
+## Installation (optional)
 
 1. Fork this repository by clicking the Fork button at the top right of the page.
 2. Clone this repository.
 3. `cd` into the newly created directory.
 4.  Run `npm start`.
 
-Running `npm start` will run both the backend and the client in your browser.
+Running `npm start` will open the app in your browser.
 
 ## Existing files
 
