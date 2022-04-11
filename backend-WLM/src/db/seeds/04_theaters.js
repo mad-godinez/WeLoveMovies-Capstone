@@ -1,5 +1,5 @@
 exports.seed = async function (knex) {
-  await knex("theaters").del();
+  await knex.schema.raw("truncate table theaters restart identity cascade ").then();
 
   const theaters_arr = await knex("theaters").insert([
     {

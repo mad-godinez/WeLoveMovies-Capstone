@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const controller = require('./movies.controller');
 const notAllowedMethod = require('../errors/methodNotAllowed');
+
 const cors = require("cors"); 
 router.use(cors());
 
