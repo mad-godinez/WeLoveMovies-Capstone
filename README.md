@@ -8,7 +8,8 @@
 2. Clone this repository.
 3. `cd` into the newly created directory.
 
-The following commands are to be run in the project's root directory.
+*The following commands are to be run in the project's root directory.*
+
 4.  Run `npm install`. This will download the project's packages.
 5.  Run `npm start`.
 6.  To SEED Data: run `npm run seed`. This will seed the database. Can be run multiple times.
