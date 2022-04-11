@@ -7,7 +7,8 @@
 1. Fork this repository by clicking the Fork button at the top right of the page.
 2. Clone this repository.
 3. `cd` into the newly created directory.
-4.  Run `npm start`.
+4.  Run `npm install`. This will download the project's packages.
+5.  Run `npm start`.
 
 Running `npm start` will open the app in your browser.
 

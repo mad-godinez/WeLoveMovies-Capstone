@@ -9,6 +9,8 @@
   },
   "main": "./backend-WLM/Procfile",
   "scripts": {
+    "preinstall": "cd ./backend-WLM && npm install",
+    "install": "cd ./frontend-WLM && npm install",
     "start": "heroku open -a client-welovemovies"
   },
   "keywords": [],
