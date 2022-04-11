@@ -7,8 +7,12 @@
 1. Fork this repository by clicking the Fork button at the top right of the page.
 2. Clone this repository.
 3. `cd` into the newly created directory.
+
+The following commands are to be run in the project's root directory.
 4.  Run `npm install`. This will download the project's packages.
 5.  Run `npm start`.
+6.  To SEED Data: run `npm run seed`. This will seed the database. Can be run multiple times.
+7.  To RESET Data: run `npm run reset`. This will rollback, migrate, & seed the database. 
 
 Running `npm start` will open the app in your browser.
 

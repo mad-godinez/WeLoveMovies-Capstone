@@ -11,7 +11,9 @@
   "scripts": {
     "preinstall": "cd ./backend-WLM && npm install",
     "install": "cd ./frontend-WLM && npm install",
-    "start": "heroku open -a client-welovemovies"
+    "start": "heroku open -a client-welovemovies", 
+    "seed": "cd ./backend-WLM && npm run seed",
+    "reset": "cd ./backend-WLM && npm run reset"
   },
   "keywords": [],
   "author": "Madison Godinez & Thinkful, INC.",
