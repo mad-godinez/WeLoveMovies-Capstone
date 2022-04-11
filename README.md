@@ -5,10 +5,9 @@
 1. Fork this repository by clicking the Fork button at the top right of the page.
 2. Clone this repository.
 3. `cd` into the newly created directory.
-4. Run `npm install`.
-5. Run `npm start`.
+4.  Run `npm start`.
 
-Running `npm start` will run both the backend and the client.
+Running `npm start` will run both the backend and the client in your browser.
 
 ## Existing files
 
@@ -18,8 +17,8 @@ The table below describes the folders in this starter repository:
 
 | Folder/file path | Description                                                      |
 | ---------------- | ---------------------------------------------------------------- |
-| `./backend-WLM`      | The backend project, which runs on `localhost:5000` by default.  |
-| `./frontend-WLM`       | The frontend project, which runs on `localhost:3000` by default. |
+| `./backend-WLM`  | The backend project: https://backend-welovemovies.herokuapp.com/ |
+| `./frontend-WLM` | The frontend project: https://client-welovemovies.herokuapp.com/ |
 
 
 ## Notes:

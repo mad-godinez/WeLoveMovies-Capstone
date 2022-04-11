@@ -9,13 +9,7 @@
   },
   "main": "./backend-WLM/Procfile",
   "scripts": {
-    "build": "npm -prefix frontend-WLM run build",
-    "preinstall": "cd ./backend-WLM  && npm install",
-    "install": "cd ./frontend-WLM  && npm install",
-    "start": "npx concurrently 'npm run start:backend' 'npm run start:client'",
-    "start:backend": "cd ./backend-WLM  && npm run start:dev",
-    "start:client": "cd ./frontend-WLM  && npm run start",
-    "test": "npm run test:client && npm run test:backend"
+    "start": "heroku open -a client-welovemovies"
   },
   "keywords": [],
   "author": "Madison Godinez & Thinkful, INC.",
