@@ -20,7 +20,6 @@ router.route('/:movieId')
 
 router.route('/')
   .get(controller.listShowings)
-  .get(controller.list)
   .all(notAllowedMethod);
 
 module.exports = router;

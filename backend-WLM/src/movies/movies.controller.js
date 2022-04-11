@@ -10,18 +10,16 @@ async function movieExists(req, res, next){
     next();
   } else next({status:404, message:"Movie cannot be found."});
 }
-function isQuery(req, res, next){ // ensures the route request goes to the correct function
-  if(!!req.query.is_showing)
+async function isQuery(req, res, next){ // ensures the route request goes to the correct function
+  if(req.query.is_showing==="true")
     next();
-  else list(req, res);
+  else if(!req.query) list(req, res);
+  else next({status:404, message:"No showings were found."}); 
 }
 
 /***** MISC MIDDLEWARE *****/
 async function listShowings(req, res, next){
-  if(!!req.query.is_showing)
-   res.json({data: await movieService.listShowings() })
-   
-  else next({status:404, message:"No showings were found."});
+  res.json({data: await movieService.listShowings() })
 }
 
 async function listTheaters(req, res, next){

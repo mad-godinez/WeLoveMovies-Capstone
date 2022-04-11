@@ -1,4 +1,3 @@
-require("dotenv").config();
 const express = require("express");
 const app = express();
 app.use(express.json());
@@ -10,15 +9,12 @@ app.use(cors());
 
 /***** ROUTES *****/
 const reviewsRouter = require('./reviews/reviews.router.js');
-// reviewsRouter.use(cors());
 app.use('/reviews', reviewsRouter);
 
 const moviesRouter = require('./movies/movies.router');
-//moviesRouter.use(cors());
 app.use('/movies', moviesRouter);
 
 const theatersRouter = require('./theaters/theaters.router');
-// theatersRouter.use(cors());
 app.use('/theaters', theatersRouter);
 
 /***** ERROR HANDLERS *****/

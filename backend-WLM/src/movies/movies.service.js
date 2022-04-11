@@ -68,9 +68,10 @@ METHOD:   function listShowings()
 async function listShowings(){
   return await knex("movies as m")
     .join("movies_theaters as mt","m.movie_id","mt.movie_id")
-    .where({"mt.theater_id": 4})
     .where({"mt.is_showing": true})
-    .select("m.*");
+    .distinct()
+    .select("m.*")
+    .orderBy("m.movie_id");
 }
 /*
 REQUEST:  GET /movies
