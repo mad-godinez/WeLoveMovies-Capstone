@@ -1,7 +1,5 @@
-require("dotenv").config();
-const API_BASE_URL = process.env.REACT_APP_API_URL;
-//"https://backend-welovemovies.herokuapp.com"
-//
+// the URL where the backend is being hosted:
+const API_BASE_URL = "https://backend-welovemovies.herokuapp.com"
 
 /**
  * Defines the default headers for these functions to work with `json-server`
@@ -15,7 +13,7 @@ headers.append("Content-Type", "application/json");
  * This function is NOT exported because it is not needed outside of this file.
  *
  * @param url
- *  the url for the requst.
+ *  the url for the request.
  * @param options
  *  any options for fetch
  * @param onCancel
