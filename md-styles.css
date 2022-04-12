@@ -1,3 +1,9 @@
 p{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: sans-serif;
+}
+.description{
+  text-align: center;
+}
+.subh{
+  text-decoration: underline;
 }
