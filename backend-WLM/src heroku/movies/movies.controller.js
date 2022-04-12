@@ -11,6 +11,7 @@ async function movieExists(req, res, next){
   } else next({status:404, message:"Movie cannot be found."});
 }
 async function isQuery(req, res, next){ // ensures the route request goes to the correct function
+  // console.log((req))
   if(req.query.is_showing==="true")
     next();
   else if(req.originalUrl === '/movies') list(req, res);
