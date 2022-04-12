@@ -1,6 +1,6 @@
 # Capstone Project: WeLoveMovies
 
-**Note:** This is meant to be deployed on Heroku. Fetching may take a few
+**Note:** This application is deployed on Heroku. Fetching data may take a few
 seconds while Heroku spins up the server.
 
 :link: <a href='https://client-welovemovies.herokuapp.com/'>Click to see the app
@@ -22,14 +22,21 @@ online, as well as my resume.
 
 ## About the Project: WeLoveMovies
 ### Project Description:
-<div class="description">
-"You've been hired on as a backend developer at a new startup called
+<div class="description">"You've been hired on as a backend developer at a new startup called
 WeLoveMovies! As another developer works on the design and frontend experience,
 you have been tasked with setting up a database and building out specific routes
-so that users can gain access to data about movies, theaters, and reviews."
-</div>
-### The Data:
+so that users can gain access to data about movies, theaters, and reviews."</div>
 
+### The Application's Tech Stack & Tools:
+<div class="subh">Development:</div>
+
+  - **Production Tier / Frontend:** React.js, JavaScript, HTML, CSS, Bootstrap, Visual Studio Code
+  - **Application Tier / Backend:** JavaScript, Express.js (+Express [CORS](https://www.npmjs.com/package/cors)), Knex.js, 
+  - **Data Tier / Database:** PostgreSQL, JetBrains DataGrip, Postman, 
+  
+<div class="subh">Deployment:</div>
+
+ - Heroku, Github, git 
 ### Learning Objectives: 
 
 ### Optional Installation:
