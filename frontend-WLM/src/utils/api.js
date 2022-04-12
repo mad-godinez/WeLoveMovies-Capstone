@@ -1,4 +1,4 @@
-require("dotenv").config({path: './.env'});
+require("dotenv").config();
 const API_BASE_URL = process.env.REACT_APP_API_URL;
 //"https://backend-welovemovies.herokuapp.com"
 //
