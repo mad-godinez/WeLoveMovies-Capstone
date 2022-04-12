@@ -107,7 +107,7 @@ The table below describes the folders in this repository:
 
 | Folder/file path | Description                                                      |
 | ---------------- | ---------------------------------------------------------------- |
-| `./backend-WLM`  | The backend project: https://backend-welovemovies.herokuapp.com/ |
+| `./backend-WLM`  | The backend project + data, hosted separately on Heroku.        |
 | `./frontend-WLM` | The frontend project: https://client-welovemovies.herokuapp.com/ |
 
 
