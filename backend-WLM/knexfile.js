@@ -24,17 +24,18 @@ module.exports = {
       directory: path.join(__dirname, "src", "db", "seeds"),
     },
   },
-  test: {
-    client: "sqlite3",
-    connection: {
-      filename: ":memory:",
-    },
-    migrations: {
-      directory: path.join(__dirname, "src", "db", "migrations"),
-    },
-    seeds: {
-      directory: path.join(__dirname, "src", "db", "seeds"),
-    },
-    useNullAsDefault: true,
-  },
+  // TEST capabilities re:sqlite3 removed after assignment completion. 
+  // test: {
+  //   client: "sqlite3",
+  //   connection: {
+  //     filename: ":memory:",
+  //   },
+  //   migrations: {
+  //     directory: path.join(__dirname, "src", "db", "migrations"),
+  //   },
+  //   seeds: {
+  //     directory: path.join(__dirname, "src", "db", "seeds"),
+  //   },
+  //   useNullAsDefault: true,
+  // },
 };
