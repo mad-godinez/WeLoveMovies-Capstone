@@ -3,8 +3,16 @@
 **Note:** This application is deployed on Heroku. Fetching data may take a few
 seconds while Heroku spins up the server.
 
-:link: <a href='https://client-welovemovies.herokuapp.com/'>Click to see the app
-in your browser!</a>
+:link: <a href='https://client-welovemovies.herokuapp.com/' align="center">Click to see the app
+in your browser!</a> :link:
+
+**HEADS UP!** If you see the error message shown below, <u>don't worry.</u> The App is working 
+perfectly fine - the :cloud: cloud service hosting my database can only accept a few connections at a time.
+<br>All you'll need to do is refresh your browser tab & wait a second or two before everything loads up properly.
+
+<img align="center" width="600px" src="./project-images/db-error.png" alt="screenshot of site error, says 'too many connections for <database>'." />
+
+
 ## About Me:
 - My name is Mad, you can think of it as "Maude" or "Mod" in your head,
   whichever works!
@@ -110,4 +118,5 @@ The table below describes the folders in this repository:
 | `./backend-WLM`  | The backend project + data, hosted separately on Heroku.        |
 | `./frontend-WLM` | The frontend project: https://client-welovemovies.herokuapp.com/ |
 
-
+---
+#### Thanks for looking! -Mad. 
