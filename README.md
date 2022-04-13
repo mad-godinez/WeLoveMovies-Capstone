@@ -1,16 +1,14 @@
 # Capstone Project: WeLoveMovies
+<h4 align="center">:link: <a href='https://client-welovemovies.herokuapp.com/' >Click to see the app
+in your browser!</a> :link:</h4>
 
-**Note:** This application is deployed on Heroku. Fetching data may take a few
-seconds while Heroku spins up the server.
+**HEADS UP!** 
+<br> If you see the error message shown below, <ins>don't worry.</ins> The app is working 
+  perfectly fine - the :cloud: cloud service hosting my database can only accept a few connections at a time.
+  
+   Just refresh your browser tab & wait a second or two and everything should load up properly. Thanks for understanding!
 
-:link: <a href='https://client-welovemovies.herokuapp.com/' align="center">Click to see the app
-in your browser!</a> :link:
-
-**HEADS UP!** If you see the error message shown below, <u>don't worry.</u> The App is working 
-perfectly fine - the :cloud: cloud service hosting my database can only accept a few connections at a time.
-<br>All you'll need to do is refresh your browser tab & wait a second or two before everything loads up properly.
-
-<img align="center" width="600px" src="./project-images/db-error.png" alt="screenshot of site error, says 'too many connections for <database>'." />
+<img align="center" width="auto" height="auto" alt="screenshot of site error, says 'too many connections for <database>'." src="./project-images/db-error.png" />
 
 
 ## About Me:
@@ -35,11 +33,11 @@ WeLoveMovies! As another developer works on the design and frontend experience,
 you have been tasked with setting up a database and building out specific routes
 so that users can gain access to data about movies, theaters, and reviews."</div>
 
-<img src="./project-images/home.png" alt="screenshot of this app's homepage in
-browser tab" id="home" />
+<img align="center" width="auto" height="auto" alt="screenshot of this app's homepage in
+browser tab" src="./project-images/home.png"/>
 
 ### Routes:
-| Path <div class="muted">(starting at the trailing '/')</div>  | Description   |
+| Path   | Description (starting at the trailing `/` of the site's URL)   |
 | ---------------- | ---------------------------------------------------------------- |
 | `/ `  | Homepage :house: Shows all movies currently playing in theaters.      |
 | `/movies ` | All Movies :movie_camera: Shows a list of all movies on record.   |
@@ -48,15 +46,15 @@ browser tab" id="home" />
 
 
 ### The Application's Tech Stack & Tools:
-<div class="subh">Development:</div>
+<ins>Development:</ins>
 
   - **Production Tier / Frontend:** JavaScript, HTML, CSS, React.js, Bootstrap,
     Visual Studio Code
   - **Application Tier / Backend:** JavaScript, Express.js (+Express
     [CORS](https://www.npmjs.com/package/cors)), Knex.js 
-  - **Data Tier / Database:** PostgreSQL, JetBrains DataGrip, Postman 
+  - **Data Tier / Database:** PostgreSQL, DataGrip, Postman 
   
-<div class="subh">Deployment:</div>
+<ins>Deployment:</ins>
 
  - Heroku, Github, git 
 ### Learning Objectives: 
@@ -81,10 +79,8 @@ that I could do the following:
 ### The Database's Structure:
 Take a look at my PostgreSQL schema's Entity Relationship Diagram (ERD), minus
 Knex migration tables.
-<div class="container">
-  <img src="./project-images/db-erd.png" alt="PostgreSQL schema's Entity Relationship Diagram" id="db" />
-</div>
 
+<img align="center" width="auto" height="auto" alt="PostgreSQL schema's Entity Relationship Diagram" src="./project-images/db-erd.png"/>
 
 ---
 ### Optional Installation:
@@ -115,8 +111,9 @@ The table below describes the folders in this repository:
 
 | Folder/file path | Description                                                      |
 | ---------------- | ---------------------------------------------------------------- |
-| `./backend-WLM`  | The backend project + data, hosted separately on Heroku.        |
+| `./backend-WLM`  | The backend project + data, hosted separately of the client on Heroku. |
 | `./frontend-WLM` | The frontend project: https://client-welovemovies.herokuapp.com/ |
 
 ---
 #### Thanks for looking! -Mad. 
+#### P.S. I'm *always* aiming to improve. If you'd like to share anonymous feedback with me, do so at [this form](https://forms.gle/9zZLXsXUobR3y7dEA)! :star2:
